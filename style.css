@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+body{
+    color:#2E4052;
+    background-color: #BDD9BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.todo-entry{
+    /* margin: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-entry label, input, button{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    border: 1px gray solid;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.todo-entry input{
+    height: 50px;
+    border: 1px rgb(159, 157, 157) solid;
+}
+
+.todo-entry button{
+    width: 50%;
+}
+.todo-entry button:hover{
+    background-color: #2E4052;
+    color: whitesmoke;
+}
+
+#todo-list input{
+    width: 10px;
+}
+
+div ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    list-style: none;
+    width: 700px;
+    color: white;
+}
+
+ul li{
+    border-radius: 10px;
+    background-color: #2F0601;
+    margin: 10px;
+}
+
+.clear-tab{
+    margin: auto 0;
+}
+
+#update-todo-btn{
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#clear-todo-btn{
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#update-todo-btn:hover{
+    background-color: #2E4052;
+    color: whitesmoke;
+}
+#clear-todo-btn:hover{
+    background-color: #2E4052;
+    color: whitesmoke;
+}
